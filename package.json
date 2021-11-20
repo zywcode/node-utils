@@ -1,0 +1,27 @@
+{
+  "name": "node-utils",
+  "version": "1.0.0",
+  "description": "node-utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zywcode/node-utils.git"
+  },
+  "keywords": [
+    "node",
+    "utils"
+  ],
+  "author": "Zhang Yanwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zywcode/node-utils/issues"
+  },
+  "homepage": "https://github.com/zywcode/node-utils#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "xlsx": "^0.17.4"
+  }
+}
