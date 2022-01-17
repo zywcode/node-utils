@@ -9,6 +9,7 @@ let rl = readline.createInterface({
     output: process.stdout
 });
 
+// console.log(process.argv[2], process.argv[3]);
 function compare(file1, file2) {
     let originalFile1 = require(`./${file1}`);
     let originalFile2 = require(`./${file2}`);
