@@ -4,7 +4,7 @@ let path = require('path');
 let _ = require('lodash');
 
 function json2excel() {
-    let file_name = '中英文汉化文件20220113';
+    let file_name = '中英文汉化文件20220304';
     let dir_path = __dirname;
     let enUS = require(`./${file_name}/en-US.json`);
     let zhCN = require(`./${file_name}/zh-CN.json`);
