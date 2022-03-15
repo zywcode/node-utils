@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/zywcode/node-utils#readme",
   "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
     "lodash": "^4.17.21",
     "xlsx": "^0.17.4"
   }

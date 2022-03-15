@@ -4,10 +4,11 @@ let path = require('path');
 let _ = require('lodash');
 
 function json2excel() {
-    let file_name = '中英文汉化文件20220304';
+    let file_name = '中英文汉化文件20220310';
     let dir_path = __dirname;
-    let enUS = require(`./${file_name}/en-US.json`);
-    let zhCN = require(`./${file_name}/zh-CN.json`);
+    let {enUS} = require(`./${file_name}/en-US.js`);
+    let {zhCN} = require(`./${file_name}/zh-CN.js`);
+    console.log(enUS);
     let keyList = _.union(Object.keys(enUS), Object.keys(zhCN));
     console.log(keyList);
     let json = [];
